@@ -10,5 +10,6 @@
 [8] Retro PixelateGDI Call: StretchBlt using win32con.SRCCOPYMechanism: Downsamples the screen buffer to $\frac{1}{16}\text{th}$ of its original size, then stretches it back up to fill the full monitor resolution.Visual Result: Chunky 8-bit / low-resolution mosaic effect across all active windows.
 [9] Spiral VortexGDI Call: StretchBlt using win32con.SRCINVERTMechanism: Sequentially shrinks the viewport inward while applying a bitwise invert on each frame step.Visual Result: A spiraling, flashing vortex that creates nested inverted frames.
 [0] Curtain SplitGDI Call: BitBlt using win32con.SRCCOPYMechanism: Slices the screen in half vertically, copying the left half further left and the right half further right.Visual Result: The screen appears to split and tear open down the center.
-[-] Scanline GlitchGDI Call: BitBlt using win32con.SRCPAINTMechanism: Grabs single-pixel scanlines across random Y-coordinates and shifts them horizontally while blending colors using SRCPAINT.Visual Result: Broken analog VCR noise, scanline flickering, and signal distortion.
+[-] Scanline GlitchGDI Call: BitBlt using win32con.SRCPAINTMechanism: Grabs single-pixel scanlines across random Y-coordinates and shifts them horizontally while blending colors using SRCPAINT.Visual Result: Broken analog
+VCR noise, scanline flickering, and signal distortion.
 [=] Swirl PulseGDI Call: StretchBlt using win32con.SRCCOPYMechanism: Alternates expanding and shrinking the entire desktop buffer relative to the center origin.Visual Result: An elastic, breathing/pulsating zoom motion.
