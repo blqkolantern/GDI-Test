@@ -1,15 +1,1 @@
-# GDI-Test
-**Effects List**
-[1] Color InvertGDI Call: PatBlt using win32con.DSTINVERTMechanism: Inverts every pixel on the screen by performing a bitwise NOT operation on the current RGB values ($RGB \rightarrow 255-R, 255-G, 255-B$).Visual Result: Instant high-contrast color swap (white becomes black, blue becomes yellow). Calling it a second time reverts colors back to normal.
-[2] Screen MeltGDI Call: BitBlt using win32con.SRCCOPYMechanism: Grabs randomized vertical slices of the display buffer and copies them slightly lower than their original Y-coordinates.Visual Result: Creates a dripping "liquid melt" or "waterfall" distortion as pixels drag down the screen.
-[3] Tunnel ZoomGDI Call: StretchBlt using win32con.SRCCOPYMechanism: Continuously scales the full screen buffer down into a smaller inner rectangle centered on the display.Visual Result: A infinite tunnel / hall-of-mirrors zoom effect.
-[4] Glitch ShakeGDI Call: BitBlt using win32con.SRCCOPYMechanism: Offsets the screen buffer coordinates by small random values along the X and Y axes over rapid iterations.Visual Result: An earthquake / camera tremor effect across the entire desktop.
-[5] Sine WaveGDI Call: BitBlt using win32con.SRCCOPYMechanism: Slices the display into 8-pixel horizontal strips and shifts each strip horizontally using a sine function (math.sin(y * frequency)).Visual Result: A smooth, wavy liquid distortion flowing vertically down the monitor.
-[6] XOR Color BlastGDI Call: PatBlt using win32con.PATINVERT with solid brushesMechanism: Generates randomized color brushes and performs a bitwise XOR operation between the brush color and the existing desktop pixels.Visual Result: Flashy, neon-colored geometric blocks with glitchy inversion trails.
-[7] Block ScatterGDI Call: BitBlt using win32con.SRCCOPYMechanism: Selects random $60\times60$ pixel blocks across the screen and copies them over to different screen coordinates.Visual Result: A mosaic shuffle that disintegrates the screen into misaligned square tiles.
-[8] Retro PixelateGDI Call: StretchBlt using win32con.SRCCOPYMechanism: Downsamples the screen buffer to $\frac{1}{16}\text{th}$ of its original size, then stretches it back up to fill the full monitor resolution.Visual Result: Chunky 8-bit / low-resolution mosaic effect across all active windows.
-[9] Spiral VortexGDI Call: StretchBlt using win32con.SRCINVERTMechanism: Sequentially shrinks the viewport inward while applying a bitwise invert on each frame step.Visual Result: A spiraling, flashing vortex that creates nested inverted frames.
-[0] Curtain SplitGDI Call: BitBlt using win32con.SRCCOPYMechanism: Slices the screen in half vertically, copying the left half further left and the right half further right.Visual Result: The screen appears to split and tear open down the center.
-[-] Scanline GlitchGDI Call: BitBlt using win32con.SRCPAINTMechanism: Grabs single-pixel scanlines across random Y-coordinates and shifts them horizontally while blending colors using SRCPAINT.Visual Result: Broken analog
-VCR noise, scanline flickering, and signal distortion.
-[=] Swirl PulseGDI Call: StretchBlt using win32con.SRCCOPYMechanism: Alternates expanding and shrinking the entire desktop buffer relative to the center origin.Visual Result: An elastic, breathing/pulsating zoom motion.
+# **DONT BE SKIDS**
